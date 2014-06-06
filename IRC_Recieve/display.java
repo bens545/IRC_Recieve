@@ -21,12 +21,12 @@ public class display {
 	public display() {
 		//Create window
         window.setTitle("Now Playing");
-        window.setSize(1000, 500);
+        window.setSize(480, 360);
         pane.setLayout(new GridLayout(4,1));
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         pane.setBackground(Color.white);
-        //window.setExtendedState(Frame.MAXIMIZED_BOTH);
-        //window.setUndecorated(true);
+        window.setExtendedState(Frame.MAXIMIZED_BOTH);
+        window.setUndecorated(true);
         window.setVisible(true);
         
         label1.setText("This Program Was Created For BASH SC");
