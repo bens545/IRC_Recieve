@@ -42,13 +42,13 @@ public class display {
         label2.setHorizontalAlignment(JLabel.CENTER);
         
         label3.setText("For Support Email: ben@skybasetech.com");
-        label3.setFont(new Font("Arial", Font.PLAIN, 48));
+        label3.setFont(new Font("Arial", Font.PLAIN, 24));
         label3.setForeground(Color.black);
         label3.setVerticalAlignment(JLabel.CENTER);
         label3.setHorizontalAlignment(JLabel.CENTER);
         
         label4.setText("Connecting (I Think)");
-        label4.setFont(new Font("Arial", Font.PLAIN, 48));
+        label4.setFont(new Font("Arial", Font.PLAIN, 24));
         label4.setForeground(Color.black);
         label4.setVerticalAlignment(JLabel.CENTER);
         label4.setHorizontalAlignment(JLabel.CENTER);
