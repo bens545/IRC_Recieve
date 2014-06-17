@@ -26,7 +26,7 @@ public class display {
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         pane.setBackground(Color.white);
         window.setExtendedState(Frame.MAXIMIZED_BOTH);
-        window.setUndecorated(true);
+        //window.setUndecorated(true);
         window.setVisible(true);
         
         label1.setText("This Program Was Created For BASH SC");

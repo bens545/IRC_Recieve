@@ -20,7 +20,7 @@ public class MyBot extends PircBot {
         	String parts[] = message.split(("\\-"));
         	String act = parts[0].substring(17);
         	String songNum = parts[1].substring(6);
-        	String song = parts[2].substring(1);
+        	String song = parts[2].substring(4);
         	display.songUpdate(1, "ACT", act);
         	display.songUpdate(2, "SONG #", songNum);
         	display.songUpdate(3, "SONG", song);
