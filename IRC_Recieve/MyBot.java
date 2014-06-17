@@ -17,10 +17,10 @@ public class MyBot extends PircBot {
                        String login, String hostname, String message) {
         if (message.contains("Now Playing: ")) {
         	announceNotify(sender);
-        	String parts[] = message.split(("\\-"));
+        	String parts[] = message.split(("\\/"));
         	String act = parts[0].substring(17);
         	String songNum = parts[1].substring(6);
-        	String song = parts[2].substring(4);
+        	String song = parts[2].substring(1);
         	display.songUpdate(1, "ACT", act);
         	display.songUpdate(2, "SONG #", songNum);
         	display.songUpdate(3, "SONG", song);
